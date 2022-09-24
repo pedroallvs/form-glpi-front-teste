@@ -1,0 +1,240 @@
+/* FORMATOÇÕES GERAIS */
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+/* BARRA DE PESQUISA */
+.barra-pesquisa{
+ 
+    background-color:#0B3A5c;
+ padding-top: 5px;
+ padding-bottom: 5px;
+
+ color: white;
+
+}
+.barra-pesquisa ul{
+display: flex;
+justify-content: flex-end;
+margin-right: 5px;
+
+}
+.barra-pesquisa li{
+display: inline-block;
+    margin-left:1% ;
+    
+}
+.barra-pesquisa a{
+    font-size: 10px;
+}
+.fundo-branco-lupa{
+    position: absolute;
+    color: black;
+    background-color: white;
+    height: 17px;
+    margin-left: -17px;
+    margin-top: 1px;
+}
+/* MENU */
+.menu {
+    background-color:  #15407e;
+    text-align: center;
+    padding: 5px;
+}
+.menu li{
+    display: inline-block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    padding-right: 30px;   
+    font-weight: bold; 
+    
+
+}
+.menu a{
+cursor:pointer;
+
+}
+a{
+    color: white;
+}
+a:visited{
+    color: white;
+    
+}
+.menu a:hover{
+    background-color: #1866a1;
+    padding: 5px;
+    
+
+}
+/* FORMATAÇÃO DA LOGO */
+.logo{
+    position: absolute;
+  
+}
+.logo img{
+    width: 100px;
+}
+
+/* BARRA DE ICONES */
+.barra-de-icones{
+    height: 100%;
+    background: rgb(248, 248, 248);
+    padding: 1px;
+    color:rgb(138, 138, 138);
+    
+}
+.barra-de-icones li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.fundo-laranja-barra{
+    color: black;
+    font-weight: bold;
+    /* background-color: orange; */
+    height: 20px;
+    width: 125px;
+}
+.estrutura-arvore{
+color: black;
+font-weight: bold;
+    display: flex;
+justify-content: flex-end;
+margin-top: -18px;
+margin-right: 1%;
+font-size: 12px
+
+}
+.barra-administrativo{
+    font-size: 11px;
+    width: 140px;
+    height: 16px;
+}
+
+
+/* Corpo da Página */
+.texto-apresentacao{
+    margin-bottom: 2%;
+}
+.corpo-da-pagina{
+ 
+   margin-left: 10%;
+   margin-right: 10%;
+}
+    /* Titulo do formulário */
+.titulo-da-pagina{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+/* TEXTO DE APRESENTAÇÃO */
+.texto-apresentacao{
+    background-color:  rgba(209, 216, 221, 0.788);
+    padding: 20px;
+    margin-bottom: 1%;
+}
+/* TITULO DOS CAMPOS */
+.titulo-secundario{
+    background-color:#0B3A5c ;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 3px;
+    margin-top: 1%;
+}
+/* CORPO DO FORMULÁRIO */
+.copro-formulario {
+    padding-top: 15px;
+    background-color:rgba(209, 216, 221, 0.788) ;
+}
+.copro-formulario label{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left:1% ;
+  
+}
+.itens-form input{
+  
+    width: 97%;
+    height: 20px;
+    margin:1% 1%  ;
+
+
+}
+.barra-opcoes{
+    width: 25%;
+    
+}
+.barra-opcoes ,.campo-data ,.input-radio {
+    margin:1%  ;
+    display: block;
+}
+.campo-data  input{
+    display: block;
+    width: 15%;    
+}
+
+.input-radio label{
+    font-weight:10;
+   margin-left: 1px;
+   
+}
+.input-radio input{
+    cursor: pointer;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-bottom:5px;
+    
+}
+.fonte-vermelha{
+    color: red;
+}
+.campo-observacoes input{
+height:150px;
+}
+
+ .campo-arquivo {
+    background-color: white;
+    width: 97%;
+    margin: 1%;
+    
+  
+ }
+ .campo-arquivo p {
+margin-top: 7px;
+ }
+ 
+ .campo-arquivo-input{
+    padding-bottom: 5px;
+    margin-left: 37%;
+
+   
+  
+ }
+ .campo-arquivo-paragrafo{
+    text-align:center;
+ 
+ }
+
+ /* BOTÃO DE ENVIAR */
+button{
+    background-color: orange;
+    border: 0px;
+    color: rgb(146, 100, 14);
+    width: 55px;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25px;
+    
+    cursor: pointer;
+    
+        
+}
+
+
